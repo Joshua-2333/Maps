@@ -2,8 +2,6 @@
 
 A simple Python automation script that opens an address in **OpenStreetMap** using either a command-line argument or the contents of your clipboard.
 
-This project was built while working through **Automate the Boring Stuff with Python** to learn Python automation and working with the standard library.
-
 ## Features
 
 * Accepts an address from the command line.
