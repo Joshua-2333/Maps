@@ -11,4 +11,5 @@ else:
     # Get address from clipboard.
     address = pyperclip.paste()
 
-print(address)
+# Open the web browser.
+webbrowser.open(f'https://www.openstreetmap.org/search?query={address}')
