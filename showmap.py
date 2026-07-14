@@ -3,3 +3,8 @@
 import webbrowser
 import sys
 import pyperclip
+
+if len(sys.argv) > 1:
+    # Get address from command line.
+    address = ' '.join(sys.argv[1:])
+    print(address)
